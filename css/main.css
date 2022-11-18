@@ -1,0 +1,116 @@
+/* CSS Document */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: rgb(65, 65, 65);
+}
+
+
+
+h1,h2,h3,h4,h5,h6 {
+	display: inline;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+h1,
+h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:36px;
+	color:#FFF;
+}
+h3 {
+	color:rgb(255, 255, 255);
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+}
+h4 {
+	font-size:18px;
+}
+
+.hiddenreviewdivs {
+	opacity:100;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+	position:absolute;
+	background-image:url(../images/5stars.png);
+	background-repeat:no-repeat; 
+	background-position:right top;
+	bottom:50px;
+	margin-left:-500px;	
+}
+
+.hiddendivcontent {
+	width:950px; 
+	height:480px; 
+	position:absolute; 
+	top:50%; 
+	left:50%; 
+	margin-left:-475px; 
+	margin-top:-240px;
+	background-image:url(../images/diamond_plate.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	-moz-border-radius: 0em 4em 0em 4em; 
+	border-radius: 0em 4em 0em 4em; 
+	-moz-box-shadow: 2px 2px 10px #555; 
+	-webkit-box-shadow: 2px 2px 10px #555;
+	box-shadow: 2px 2px 10px #555;
+	opacity:1;
+	z-index:999;
+}
+
+.hiddendivs2 {
+	display:none; 
+	opacity:0.0; 
+	filter:alpha(opacity=0);
+}
+
+#header {
+	z-index:9999;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:auto;	
+}
+
+#review1 {
+	z-index:100;	
+}
+
+#review2 {
+	z-index:101;	
+}
+
+#review3 {
+	z-index:102;	
+}
+
+#review4 {
+	z-index:103;	
+}
+
+#review5 {
+	z-index:104;	
+}
+
+#review6 {
+	z-index:105;	
+}
+
+#review7 {
+	z-index:106;	
+}
+
+#review8 {
+	z-index:107;	
+}
+
+#review9 {
+	z-index:108;	
+}
+
+#review10 {
+	z-index:109;	
+}
